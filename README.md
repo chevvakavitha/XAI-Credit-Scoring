@@ -151,12 +151,16 @@ Copy code
 - Fast inference  
 - Ready for API or Gradio UI  
 
+---
+
 ### 🔍 Explainability Features
 - SHAP summary plots  
 - Feature importance  
 - Force plots  
 - Waterfall plots  
 - Fully transparent predictions  
+
+---
 
 ### 🛡 Fairness & Reliability
 - Bias detection ready  
@@ -181,11 +185,14 @@ Copy code
 
 Example usage:
 
-```markdown
+markdown
 <p align="center">
   <img src="assets/explainability/shap_summary.png" width="70%">
 </p>
-📈 Evaluation Metrics
+
+---
+
+## 📈 Evaluation Metrics
 Metric	Result
 AUC-ROC	0.89–0.95
 F1-Score	High
@@ -199,7 +206,10 @@ bash
 Copy code
 assets/metrics/confusion_matrix.png
 assets/metrics/roc_curve.png
-📁 Project Structure
+
+---
+
+## 📁 Project Structure
 css
 Copy code
 XAI-Credit-Scoring/
@@ -225,7 +235,10 @@ XAI-Credit-Scoring/
 │
 ├── requirements.txt
 └── README.md
-🛠 Installation
+
+---
+
+## 🛠 Installation
 bash
 Copy code
 git clone https://github.com/chevvakavitha/XAI-Credit-Scoring.git
@@ -236,20 +249,23 @@ source venv/bin/activate     # Mac/Linux
 venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
-▶ Running the Model
-🔥 Train
+
+---
+
+## ▶ Running the Model
+##🔥 Train
 bash
 Copy code
 python src/train.py
-🔥 Generate SHAP Explanations
+##🔥 Generate SHAP Explanations
 bash
 Copy code
 python src/shap_explain.py
-🔥 Predict for a New User
+##🔥 Predict for a New User
 bash
 Copy code
 python src/predict.py --input sample.json
-🖼 Output Screenshots
+##🖼 Output Screenshots
 Add your model output charts into:
 
 bash
@@ -262,7 +278,10 @@ Copy code
 <p align="center">
   <img src="assets/outputs/prediction_example.png" width="60%">
 </p>
-🚀 Future Improvements
+
+---
+
+## 🚀 Future Improvements
 Add FastAPI deployment
 
 Add Streamlit dashboard
@@ -273,7 +292,9 @@ Add automated monitoring
 
 Convert to fully production MLOps pipeline
 
-📬 Contact
+---
+
+##📬 Contact
 Cheva Kavitha
 📩 Email: kavithachevvakavitha@gmail.com
 🔗 GitHub: https://github.com/chevvakavitha
